@@ -1,5 +1,5 @@
 
-path<-file.path("C:","Users","Miles","Documents","R","POTUS Tweets","realPOTUS.csv")
+path<-file.path(...,"realPOTUS.csv")
 pres<-read.csv(path)
 
 # Make sure the dates and times the tweets were created are in the 
